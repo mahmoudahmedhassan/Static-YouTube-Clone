@@ -1,0 +1,41 @@
+
+ .slider{
+    position: relative;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    height:100vh;
+  }
+  .slider .next, .prev{
+    position: absolute;
+    z-index: 10;
+    font-size: 2em;
+    cursor: pointer;
+    user-select: none;
+  }
+  .slider .next{
+    right: 20px;
+  }
+  .slider .prev{
+    left: 20px;
+  }
+ 
+  .images{
+    position: absolute;
+    opacity: 0;
+    transition-duration: 1s ease;
+ 
+  }
+  .active{
+    opacity: 1;
+    transition-duration: 1s;
+    transform: scale(1.08);
+  }
+ 
+  
+  .images img{
+    max-height: 700px;
+    max-width:700px;
+    border-radius: 10px;
+    border: 5px solid #fff
+  }
