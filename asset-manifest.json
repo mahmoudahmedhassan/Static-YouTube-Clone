@@ -1,0 +1,33 @@
+{
+  "files": {
+    "main.css": "/mahmoudahmedhassan/Static-YouTube-Clone/static/css/main.0febbdeb.chunk.css",
+    "main.js": "/mahmoudahmedhassan/Static-YouTube-Clone/static/js/main.0054ca39.chunk.js",
+    "main.js.map": "/mahmoudahmedhassan/Static-YouTube-Clone/static/js/main.0054ca39.chunk.js.map",
+    "runtime-main.js": "/mahmoudahmedhassan/Static-YouTube-Clone/static/js/runtime-main.599dfe7a.js",
+    "runtime-main.js.map": "/mahmoudahmedhassan/Static-YouTube-Clone/static/js/runtime-main.599dfe7a.js.map",
+    "static/css/2.9a5322c9.chunk.css": "/mahmoudahmedhassan/Static-YouTube-Clone/static/css/2.9a5322c9.chunk.css",
+    "static/js/2.665e756e.chunk.js": "/mahmoudahmedhassan/Static-YouTube-Clone/static/js/2.665e756e.chunk.js",
+    "static/js/2.665e756e.chunk.js.map": "/mahmoudahmedhassan/Static-YouTube-Clone/static/js/2.665e756e.chunk.js.map",
+    "index.html": "/mahmoudahmedhassan/Static-YouTube-Clone/index.html",
+    "static/css/2.9a5322c9.chunk.css.map": "/mahmoudahmedhassan/Static-YouTube-Clone/static/css/2.9a5322c9.chunk.css.map",
+    "static/css/main.0febbdeb.chunk.css.map": "/mahmoudahmedhassan/Static-YouTube-Clone/static/css/main.0febbdeb.chunk.css.map",
+    "static/js/2.665e756e.chunk.js.LICENSE.txt": "/mahmoudahmedhassan/Static-YouTube-Clone/static/js/2.665e756e.chunk.js.LICENSE.txt",
+    "static/media/amir-mounir-v-1.7e34a75c.jpg": "/mahmoudahmedhassan/Static-YouTube-Clone/static/media/amir-mounir-v-1.7e34a75c.jpg",
+    "static/media/codezilla-v-1.59f1e637.jpg": "/mahmoudahmedhassan/Static-YouTube-Clone/static/media/codezilla-v-1.59f1e637.jpg",
+    "static/media/devlogs-v-1.8470bd5a.jpg": "/mahmoudahmedhassan/Static-YouTube-Clone/static/media/devlogs-v-1.8470bd5a.jpg",
+    "static/media/droosonline-v-1.e4777e98.jpg": "/mahmoudahmedhassan/Static-YouTube-Clone/static/media/droosonline-v-1.e4777e98.jpg",
+    "static/media/droosonline-v-2.bfe9a170.jpg": "/mahmoudahmedhassan/Static-YouTube-Clone/static/media/droosonline-v-2.bfe9a170.jpg",
+    "static/media/elzero-v-1.0047f2a0.jpg": "/mahmoudahmedhassan/Static-YouTube-Clone/static/media/elzero-v-1.0047f2a0.jpg",
+    "static/media/elzero-v-2.e65eef18.jpg": "/mahmoudahmedhassan/Static-YouTube-Clone/static/media/elzero-v-2.e65eef18.jpg",
+    "static/media/elzero-v-3.e323fa75.jpg": "/mahmoudahmedhassan/Static-YouTube-Clone/static/media/elzero-v-3.e323fa75.jpg",
+    "static/media/profile.a0be25bd.jpg": "/mahmoudahmedhassan/Static-YouTube-Clone/static/media/profile.a0be25bd.jpg",
+    "static/media/youtube-logo-light.09ffac61.png": "/mahmoudahmedhassan/Static-YouTube-Clone/static/media/youtube-logo-light.09ffac61.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.599dfe7a.js",
+    "static/css/2.9a5322c9.chunk.css",
+    "static/js/2.665e756e.chunk.js",
+    "static/css/main.0febbdeb.chunk.css",
+    "static/js/main.0054ca39.chunk.js"
+  ]
+}
