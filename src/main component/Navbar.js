@@ -29,29 +29,21 @@ function Navbar() {
 
           <div className= {toggleSearch ?"nav-list-home-hideen" :"nav-list-home" }>
             <div>
-              <a href="#">
-                {" "}
+                 {" "}
                 <TiThMenuOutline className="icons-home" onClick={()=> {setToggleSideNavbar(!toggleSideNavbar)}} />
-              </a>
-            </div>
+             </div>
             <div className="active">
-              <a href="#">
-                {" "}
+                 {" "}
                 <ImHome className="icons-home active-icons" />
-              </a>
-            </div>
+             </div>
             <div>
-              <a href="#">
-                {" "}
+                 {" "}
                 <FaFire className="icons-home" />
-              </a>
-            </div>
+             </div>
             <div>
-              <a href="#">
-                {" "}
+                 {" "}
                 <MdLocalMovies className="icons-home" />
-              </a>
-            </div>
+             </div>
           </div>
 
           <div className="nav-list-search">
@@ -65,11 +57,9 @@ function Navbar() {
 
           <div className={toggleSearch ? "nav-list-profile-hidden" :"nav-list-profile" } >
             <div className="video">
-              <a href="#">
-                {" "}
+                 {" "}
                 <FaVideo className="icons-home" />{" "}
-              </a>
-            </div>
+             </div>
 
             <div
               className="notifications"
@@ -78,10 +68,8 @@ function Navbar() {
               }}
             >
               <div className="notifications-notifications">
-                <a href="#">
-                  <IoNotifications className="icons-home" />{" "}
-                </a>
-              </div>
+                   <IoNotifications className="icons-home" />{" "}
+               </div>
             </div>
 
             <div className="profile">

@@ -1,4 +1,4 @@
-import { React, useState } from "react";
+import { React } from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import { AiFillCheckCircle } from "react-icons/ai";
 //============== import videos-images ==========
@@ -19,14 +19,14 @@ import elzero from "../imgs/subscriptions/elzero.jpg";
 import droosonline from "../imgs/subscriptions/droosonline.jpg";
 import amirmounir from "../imgs/subscriptions/amir-mounir.jpg";
 import codezilla from "../imgs/subscriptions/codezilla.jpg";
-import kimzcods from "../imgs/subscriptions/kimzcods.jpg";
-import hassounaacademy from "../imgs/subscriptions/hassouna-academy.jpg";
-import uniquecoderzacademy from "../imgs/subscriptions/unique-coderz-academy.jpg";
-import mohamedabusrea from "../imgs/subscriptions/mohamed-abusrea.jpg";
+// import kimzcods from "../imgs/subscriptions/kimzcods.jpg";
+// import hassounaacademy from "../imgs/subscriptions/hassouna-academy.jpg";
+// import uniquecoderzacademy from "../imgs/subscriptions/unique-coderz-academy.jpg";
+// import mohamedabusrea from "../imgs/subscriptions/mohamed-abusrea.jpg";
 
 function Cards() {
     
-  const [data, setData] = useState({
+  const data = {
     items: [
       {
         id: "1",
@@ -143,7 +143,7 @@ function Cards() {
         videoTime: "11:23",
       },
     ],
-  });
+  }
 
   console.log(data.items);
   return (

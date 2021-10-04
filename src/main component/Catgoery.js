@@ -1,8 +1,8 @@
-import { React, useState } from "react";
+import { React } from "react";
 import Carousel from "react-elastic-carousel";
 
 function Catgoery() {
-  const [data, setData] = useState({
+  const data ={
     items: [
       { id: 1, title: "all" },
       { id: 2, title: "Javascript" },
@@ -24,7 +24,8 @@ function Catgoery() {
       { id: 18, title: "Droos Online" },
       { id: 19, title: " Pubg" },
     ],
-  });
+  }
+
   const breakPoints = [
     { width: 300, itemsToShow: 1 },
     { width: 400, itemsToShow: 2},
