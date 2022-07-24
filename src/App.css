@@ -78,6 +78,7 @@ ul {
 .icons-home {
   font-size: 1.5rem;
   color: #676767;
+  cursor: pointer;
   /* color: var(--white) */
 }
 
@@ -139,6 +140,7 @@ ul {
   text-transform: capitalize;
   opacity: 0;
   transition: 0.3s;
+  visibility: hidden;
 }
 .Toggle-Profile {
   width: 300px;
@@ -154,7 +156,7 @@ ul {
   text-transform: capitalize;
   opacity: 1;
   transition: 0.3s;
-}
+ }
 
 .Toggle-Profile > div {
   display: flex;
@@ -235,6 +237,7 @@ ul {
   z-index: 99;
   opacity: 0;
   transition: 0.3s;
+  visibility: hidden;
 }
 .Notifications-Component {
   height: 400px;
@@ -542,7 +545,8 @@ display:none;
     display: flex;
     justify-content: center;
     align-items: center;
-    background: rgb(235, 235, 235);
+    /* background: rgb(235, 235, 235); */
+    background-color: var(--very-dark-black) ;
     border-radius: 10px;
     padding: 12px;
     margin: 5px;
@@ -554,11 +558,15 @@ display:none;
 
   .search-responsive-visble {
     display: flex;
+    background-color: var(--very-dark-black) ;
+    color:var(--dark-text) ;
+    ;
     border: none;
     border-radius: 10px;
     padding: 10px;
     margin-right: 10px;
     outline: none;
+
   }
   .nav-list-profile {
     width: auto;

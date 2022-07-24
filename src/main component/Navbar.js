@@ -51,8 +51,8 @@ function Navbar() {
           </div>
 
           <div className="nav-list-search-responsive">
-            <BiSearch className="icons-home"  onClick={()=> setToggleSearch(!toggleSearch)}/>
-            <input type="text" placeholder="search..." className={toggleSearch ?"search-responsive-visble"  :"search-responsive-hidden" } />
+            <BiSearch className="icons-home" style={{marginRight:' 5px'}}onClick={()=> setToggleSearch(!toggleSearch)}/>
+            <input type="text" placeholder="search..." className={toggleSearch ? "search-responsive-visble"  :"search-responsive-hidden" } />
           </div>
 
           <div className={toggleSearch ? "nav-list-profile-hidden" :"nav-list-profile" } >
